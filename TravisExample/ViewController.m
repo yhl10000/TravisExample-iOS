@@ -28,7 +28,8 @@
 
 - (IBAction)onCrash:(id)sender
 {
-	[NSException raise:@"EnforcesException" format:@"Fish pushed the crash button!"];
+	//[NSException raise:@"EnforcesException" format:@"Fish pushed the crash button!"];
+    NSString * aaa = @"fish";
 }
 
 @end
