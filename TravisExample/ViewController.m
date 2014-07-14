@@ -28,7 +28,7 @@
 
 - (IBAction)onCrash:(id)sender
 {
-	[NSException raise:@"EnforcesException" format:@"You pushed the crash button!"];
+	[NSException raise:@"EnforcesException" format:@"Fish pushed the crash button!"];
 }
 
 @end
